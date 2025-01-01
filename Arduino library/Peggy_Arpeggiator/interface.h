@@ -5,7 +5,7 @@
 //    P         E        G   G     G   G       Y
 //    P         EEEEE     GGGG      GGGG       Y
 //
-//    interface.h  //  peggyInstruments  //  2022-10-23
+//    interface.h  //  Mårten Nettelbladt  //  2022-10-23
 
 #ifndef interface_h
 #define interface_h
