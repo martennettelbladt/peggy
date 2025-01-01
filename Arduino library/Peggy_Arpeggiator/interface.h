@@ -10,15 +10,11 @@
 #ifndef interface_h
 #define interface_h
 
-// (x) ta bort setup
-// ( ) renodla till interfaceMidiMessage1 (1 byte) och interfaceMidiMessage 2 (2 bytes)
-
 bool interfaceSyncCheck(); // check if sync is coming in
 void interfaceSyncOut(); // send a sync out
 void interfaceNoteOn(byte, byte, byte); // channel, note, velocity
 void interfaceNoteOff(byte, byte); // channel, note
 void interfaceMidiCC(byte, byte); // number, value
 void interfaceProgramChange(byte);
-
 
 #endif
