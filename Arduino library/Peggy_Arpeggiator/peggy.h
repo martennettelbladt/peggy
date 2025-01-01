@@ -24,7 +24,7 @@ class Arpeggiator
     bool mirror = false; // if TRUE the scale is mirrored. The 1st and 5th note stay the same. So intervals 1-4 are reversed in order and intervals 5-7. New order: 4, 3, 2, 1, 7, 6, 5
     bool invert = false; // same as MIRROR but only affects the chord intervals. Changes between major and minor version of chord.
     byte key = 0; // 0-11, is the root of the scale. 0 = C, 1 = C#, 2= D et cetera
-    byte pitch = 60; // The lowest note in the corrent octave
+    byte pitch = 60; // Start working octave from this note
     byte oldPitch = pitch;
     byte scale = 0;  // 0-37 selects current interval set from the list of 38 sets
     byte mode = 0; // 0-6 sets the mode rotation of the scale
