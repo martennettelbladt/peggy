@@ -30,7 +30,7 @@ Arpeggiator::Arpeggiator()
 // Code to initiate the object 
 void Arpeggiator::begin()
 {
-
+  interfaceBegin();
 }
 
 // -------------------------------- P L A Y
