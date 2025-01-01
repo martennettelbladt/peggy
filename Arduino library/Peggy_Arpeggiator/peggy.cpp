@@ -10,7 +10,6 @@
 
 #include <Arduino.h>
 #include "peggy.h"
-#include "pattern.h"
 #include "interface.h"
 
 #define noteMin 21 // Lowest note. 21 = A0 =  Lowest note on 88-key piano
