@@ -10,6 +10,7 @@
 #ifndef interface_h
 #define interface_h
 
+void interfaceBegin(); // setup serial communication
 bool interfaceSyncCheck(); // check if sync is coming in
 void interfaceSyncOut(); // send a sync out
 void interfaceNoteOn(byte, byte, byte); // channel, note, velocity
