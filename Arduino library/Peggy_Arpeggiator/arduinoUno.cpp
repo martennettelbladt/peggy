@@ -1,9 +1,19 @@
+//
+//    PPPP      EEEEE     GGGG      GGGG     Y   Y
+//    P   P     E        G         G          Y Y
+//    PPPP      EEEE     G  GG     G  GG       Y
+//    P         E        G   G     G   G       Y
+//    P         EEEEE     GGGG      GGGG       Y
+//
+//    arduinoUno.cpp  //  Mårten Nettelbladt  //  2025-01-01
+
+
 #define SerialMidi Serial
 #define serialSyncIn Serial
 #define serialSyncOut Serial
 #define serialNoteOut Serial 
 #define serialMonitor Serial
-// Use 'Serial1' for Arduino Micro and other possible numbers for Arduino Mega
+// Use 'Serial1' for Arduino Micro and possibly other numbers for Arduino Mega
 
 #include "interface.h"
 
