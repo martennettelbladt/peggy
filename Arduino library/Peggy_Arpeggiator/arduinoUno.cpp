@@ -17,6 +17,8 @@
 
 #include "interface.h"
 
+byte midiClock = 0xf8;
+
 // -------------------------------- I N T E R F A C E   B E G I N
 void interfaceBegin()
 {
@@ -46,7 +48,7 @@ bool interfaceSyncCheck()
 // -------------------------------- I N T E R F A C E   S Y N C   O U T
 void interfaceSyncOut()
 {
-
+  serialSyncOut.write(midiClock);
 }
 
 // -------------------------------- I N T E R F A C E   N O T E   O N
