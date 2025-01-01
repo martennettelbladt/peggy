@@ -5,7 +5,7 @@
 //    P         E        G   G     G   G       Y
 //    P         EEEEE     GGGG      GGGG       Y
 //
-//    interface_arduino_uno.cpp  //  Mårten Nettelbladt  //  2025-01-01
+//    interface_midi_arduino_uno.cpp  //  Mårten Nettelbladt  //  2025-01-01
 
 
 #define SerialMidi Serial
