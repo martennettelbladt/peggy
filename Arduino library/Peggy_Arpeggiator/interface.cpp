@@ -1,3 +1,5 @@
+#include "interface.h"
+
 // -------------------------------- I N T E R F A C E   B E G I N
 void interfaceBegin()
 {
