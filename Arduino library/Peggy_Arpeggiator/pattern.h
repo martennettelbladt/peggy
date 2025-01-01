@@ -8,8 +8,6 @@
 //    pattern.h  //  Mårten Nettelbladt  //  2022-11-13
 
 
-
-
 // -------------------------------- N O T E   P A T T E R N
 const byte pattern[48][16];
 
