@@ -1,3 +1,10 @@
+#define SerialMidi Serial
+#define serialSyncIn Serial
+#define serialSyncOut Serial
+#define serialNoteOut Serial 
+#define serialMonitor Serial
+// Use 'Serial1' for Arduino Micro and other possible numbers for Arduino Mega
+
 #include "interface.h"
 
 // -------------------------------- I N T E R F A C E   B E G I N
