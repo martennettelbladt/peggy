@@ -1,0 +1,34 @@
+      K V A R   A T T   F I X A   T I L L   B E T A - R E L E A S E :
+  [x] Automatic UTKAST. Kolla om det funkar.
+  [x] Switch playMode during performance, turn off continuous notes
+  [x] på/av-knapp
+  [x] beat
+  [x] beat reset
+  [x] test med minimal sketch
+  [x] fixa övergång pulse/continuous. Funkar ok nu
+
+  [ ] fixa encoder, ska byta värde mitt mellan hack. SVÅRT
+
+  [ ] velocity
+  [ ] variation
+  [ ] fixa duration / note length
+  [ ] skip
+  [ ] melody
+  [ ] strukturera filerna mer
+  [ ] kommentera alla funktioner
+  [ ] engelska överallt!
+  [x] paketera till ett bibliotek med KEYWORDS osv
+  [ ] ZIP-fil
+
+      F O R T S A T T   A R B E T E
+  [x] Koppla in armen och köra med Peggy-biblioteket
+  [ ] Antingen ny Peggy baserad på Mega eller byta ut Arduino Micro på Peggy 2
+  [ ] sustain ?
+  [ ] strum?
+  [ ] test med bela! Dvs Peggy gör även ljud!
+  [ ] inbyggda högtalare och batteri. Portabelt instrument
+  [ ] pure data hammond-orgel? -> bela
+
+      L Å N G S I K T I G T
+  [ ] fade()
+  [ ]
