@@ -183,9 +183,12 @@ void Arpeggiator::updatePatternCount()
 // -------------------------------- N O T E   O N
 void Arpeggiator::noteOn(byte noteNumber, byte velocityValue)
 {
-  _note = constrain (noteNumber, noteMin, noteMax); // keeps note within valid range
-  interfaceNoteOn(midiChannel, _note, velocityValue);
-  noteRecord[_note] = duration; // stores note length in record
+  if (mute == false)
+  {
+    _note = constrain (noteNumber, noteMin, noteMax); // keeps note within valid range
+    interfaceNoteOn(midiChannel, _note, velocityValue);
+    noteRecord[_note] = duration; // stores note length in record
+  }
 }
 
 // -------------------------------- N O T E   O F F
