@@ -12,7 +12,7 @@
 #define serialSyncIn Serial
 #define serialSyncOut Serial
 #define serialNoteOut Serial 
-#define serialMonitor Serial
+//#define serialMonitor Serial
 // Use 'Serial1' for Arduino Micro and possibly other numbers for Arduino Mega
 
 #include "interface.h"
