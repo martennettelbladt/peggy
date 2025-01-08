@@ -20,10 +20,11 @@ void setup() {
 
 // -------------------------------- L O O P
 void loop() {
-
+  // examples of how to change settings
   peggy.chord = (floor ((1023 - analogRead(A0)) / 93));
   peggy.pitch = (1023 - analogRead(A1)) / 15; 
-  
+
+  // run the arpeggiator
   peggy.play();
   
 }
