@@ -267,6 +267,25 @@ static const byte PROGMEM peggySineTable[256] =
   .byte $00 ; |        |
   https://www.masswerk.at/vcs-tools/TinySpriteEditor/
 
+  Nibbles 2025-01-14
+   	8421
+  0	....
+  1	...x
+  2	..x.
+  3	..xx
+  4	.x..
+  5	.x.x
+  6	.xx.
+  7	.xxx
+  8	x...
+  9	x..x
+  a	x.x.
+  b	x.xx
+  c	xx..
+  d	xx.x
+  e	xxx.
+  f	xxxx
+
 */
 
 #endif
