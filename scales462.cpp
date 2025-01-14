@@ -1,8 +1,8 @@
-1, 1, 1, 1, 1, 1, 6
-1, 1, 1, 1, 1, 2, 5
-1, 1, 1, 1, 1, 3, 4
-1, 1, 1, 1, 1, 4, 3
-1, 1, 1, 1, 1, 5, 2
+1, 1, 1, 1, 1, 1, 6  // A sorted list of the 462 possible scales that divide the octave's 12 semitones into 7 intervals.
+1, 1, 1, 1, 1, 2, 5  // 462 = (11 * 10 * 9 * 8 * 7 * 6) / (6 * 5 * 4 * 3 * 2 * 1) = 332640 / 720
+1, 1, 1, 1, 1, 3, 4  // 462 = 66 * 7 (66 unique scales with 7 different modes or 'rotations')
+1, 1, 1, 1, 1, 4, 3  // Mårten Nettelbladt
+1, 1, 1, 1, 1, 5, 2  // 2025-01-14
 1, 1, 1, 1, 1, 6, 1
 1, 1, 1, 1, 2, 1, 5
 1, 1, 1, 1, 2, 2, 4
@@ -460,13 +460,3 @@
 5, 1, 2, 1, 1, 1, 1
 5, 2, 1, 1, 1, 1, 1
 6, 1, 1, 1, 1, 1, 1
-  
-/*
-A sorted list of the 462 possible scales that divide the octave into 7 intervals.
-
-462 = (11 * 10 * 9 * 8 * 7 * 6) / (6 * 5 * 4 * 3 * 2 * 1) = 332640 / 720
-462 = 66 * 7 (66 unique scales with 7 different modes or 'rotations')
-
-2025-01-14
-
-*/
