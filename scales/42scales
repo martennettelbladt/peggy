@@ -1,0 +1,42 @@
+08	1213-122  //*
+09	1213-131  //*
+10	1213-212  //*
+11	1213-221  //*
+19	1222-122  //* Phrygian, Bharavi
+20	1222-131  //* Neapolitan minor
+21	1222-212  //*
+22	1222-221  //* Neapolitan major
+24	1231-122  //*
+25	1231-131  //*
+26	1231-212  //*
+27	1231-221  //*
+29	1312-122  //* Phrygian dominant
+30	1312-131  //* Flamenco mode, Double harmonic, Bir ikki
+31	1312-212  //*
+32	1312-221  //*
+34	1321-122  //*
+35	1321-131  //* Purvi
+36	1321-212  //*
+37	1321-221  //*
+47	2122-122  //* N A T U R A L   M I N O R , Aeolian, Asavari
+48	2122-131  //* H A R M O N I C   M I N O R
+49	2122-212  //* Dorian, Kafi
+50	2122-221  //* M E L O D I C   M I N O R
+51	2123-121  //         (Missing 2123-112 "8 major")
+52	2131-122  //*
+53	2131-131  //* Hungarian gypsy, Hungarian minor, Algerian
+54	2131-212  //*
+55	2131-221  //*
+56	2132-121  //         (Missing: 2211-222 Major Locran)
+57	2212-122  //* Adonai Malakh
+58	2212-131  //* H A R M O N I C   M A J O R
+59	2212-212  //* Mixolydian, Khamaj
+60	2212-221  //* M A J O R   S C A L E, Ionian, Bilawal
+62	2221-122  //*
+63	2221-131  //*
+64	2221-212  //*
+65	2221-221  //* Lydian, Kalyan
+70	3121-122  //*
+71	3121-131  //*
+72	3121-212  //*
+73	3121-221  //*
