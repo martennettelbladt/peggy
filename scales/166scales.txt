@@ -1,4 +1,4 @@
-1113-123 
+1113-123  // 166 scales / Max interval: 3 / Min sum of first 4 intervals: 6 / Min sum och last 3 intervals: 4
 1113-132
 1113-213
 1113-222
