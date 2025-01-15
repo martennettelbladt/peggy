@@ -1,28 +1,47 @@
-1212-123
+1212-123  // All 42 possible scales with no adjacent ones (first and last not counted as adjacent)
 1212-132
+1212-141
 1212-213
-1212-222
+1212-222  // Altered
+1212-231
 1212-312
+1212-321
 1213-122
+1213-131
 1213-212
+1213-221
+1214-121
 1221-213
-1221-222
+1221-222  // Locrian
+1221-231
 1221-312
-1222-122
+1221-321
+1222-122  // Phrygian, Bharavi
+1222-131  // Neapolitan minor
 1222-212
+1222-221  // Neapolitan major
+1223-121
 1231-212
-1312-122
+1231-221
+1232-121
+1312-122  // Phrygian dominant
+1312-131  // Flamenco mode, Double harmonic, Bir ikki
 1312-212
+1312-221
+1313-121
 1321-212
+1321-221
+1322-121
+1412-121
 2121-213
-2121-222
+2121-222  // Half diminished
 2121-231
 2121-312
 2121-321
-2122-122
-2122-131
-2122-212
-2122-221
+2122-122  // N A T U R A L   M I N O R , Aeolian, Asavari
+2122-131  // H A R M O N I C   M I N O R
+2122-212  // Dorian, Kafi
+2122-221  // M E L O D I C   M I N O R
 2123-121
 2131-212
 2131-221
