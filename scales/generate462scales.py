@@ -1,5 +1,8 @@
 
 # 462 scales / Mårten Nettelbladt / 2025-01-14
+# Finds all combinations of 7 positive integers that add upp to 12
+# since the ranges are from 0-5 rather than 1-6, "+7" is added to the if statement
+# and "+1" is added to all variables in the print line
 
 for a in range(6):
     for b in range(6):
