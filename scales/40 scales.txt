@@ -1,0 +1,40 @@
+1213-122  //* Max interval 3 / No adjacent "1" except 4th / 5th and first / last. / 5th note = 7 semi tones
+1213-131  //*
+1213-212  //*
+1213-221  //*
+1222-122  //* Phrygian, Bharavi
+1222-131  //* Neapolitan minor
+1222-212  //*
+1222-221  //* Neapolitan major
+1231-122  //*
+1231-131  //*
+1231-212  //*
+1231-221  //*
+1312-122  //* Phrygian dominant
+1312-131  //* Flamenco mode, Double harmonic, Bir ikki
+1312-212  //*
+1312-221  //*
+1321-122  //*
+1321-131  //* Purvi
+1321-212  //*
+1321-221  //*
+2122-122  //* N A T U R A L   M I N O R , Aeolian, Asavari
+2122-131  //* H A R M O N I C   M I N O R
+2122-212  //* Dorian, Kafi
+2122-221  //* M E L O D I C   M I N O R
+2131-122  //*
+2131-131  //* Hungarian gypsy, Hungarian minor, Algerian
+2131-212  //*
+2131-221  //* 
+2212-122  //* Adonai Malakh
+2212-131  //* H A R M O N I C   M A J O R
+2212-212  //* Mixolydian, Khamaj
+2212-221  //*  M A J O R   S C A L E, Ionian, Bilawal
+2221-122  //*
+2221-131  //*
+2221-212  //*
+2221-221  //* Lydian, Kalyan
+3121-122  //*
+3121-131  //*
+3121-212  //*
+3121-221  //*
