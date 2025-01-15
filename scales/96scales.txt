@@ -1,4 +1,4 @@
-1123-113  // 96 scales / Sum of first 4 intervals: 7 / Sum och last 3 intervals: 5
+1123-113  // 96 scales / Sum of first 4 intervals: 7 / Sum of last 3 intervals: 5
 1123-122
 1123-131
 1123-212
