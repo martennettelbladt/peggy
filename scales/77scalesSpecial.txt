@@ -51,7 +51,7 @@
 2123-121  //         (Missing 2123-112 "8 major")
 2131-122  //*
 2131-131  //* Hungarian gypsy, Hungarian minor, Algerian
-2131-212  //*
+2131-212  //* Ukranian Dorian
 2131-221  //*
 2132-121  //         (Missing: 2211-222 Major Locran)
 2212-122  //* Adonai Malakh
