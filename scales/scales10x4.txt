@@ -1,0 +1,14 @@
+1213-  # first 4 intervals = 10 combinations
+1222-
+1231-
+1312-
+1321-
+2122-
+2131-
+2212-
+2221-
+3121-
+-122    # last 3 intervals = 4 combinations
+-131
+-212
+-221
