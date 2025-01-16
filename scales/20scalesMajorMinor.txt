@@ -19,6 +19,7 @@
 3121-212 / 1213-212
 3121-221 / 1213-122
 
-# Max interval 3 / No adjacent "1" except 4th / 5th and first / last. / 5th note = 7 semi tones from root
-# Arranged in major/minor pairs. To shift between them, the first four intervals are reversed and then the last three, separately
+# Max interval 3 / No adjacent "1" within each group of intervals. / 5th note = 7 semi tones from root
+# Arranged in major/minor pairs. To shift between them, the first four intervals are reversed and then the last three
 # Example: ABCD-EFG becomes DCBA-GFE
+# Mårten Nettelbladt 2025-01-16
