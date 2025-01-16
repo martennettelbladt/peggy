@@ -5,7 +5,7 @@
 //    P         E        G   G     G   G       Y
 //    P         EEEEE     GGGG      GGGG       Y
 //
-//    peggy.h  //  Mårten Nettelbladt  //  2022-11-13
+//    peggy.h  //  Mårten Nettelbladt  //  2022-11-13 rev 2025-01-17
 
 
 #ifndef peggy_h
@@ -22,11 +22,12 @@ class Arpeggiator
     void updateNotes(); // calculates the current notes
     
     bool mirror = false; // if TRUE the scale is mirrored. The 1st and 5th note stay the same. So intervals 1-4 are reversed in order and intervals 5-7. New order: 4, 3, 2, 1, 7, 6, 5
+    			 // Default mode is major scale. MIRROR flips the scale to minor.
     bool invert = false; // same as MIRROR but only affects the chord intervals. Changes between major and minor version of chord.
     byte key = 0; // 0-11, is the root of the scale. 0 = C, 1 = C#, 2= D et cetera
     byte pitch = 60; // Start working octave from this note
     byte oldPitch = pitch;
-    byte scale = 0;  // 0-37 selects current interval set from the list of 38 sets
+    byte scale = 0;  // 0-19 selects current interval set from the list of 20 sets
     byte mode = 0; // 0-6 sets the mode rotation of the scale
     byte chord = 0; // 0-6. In the "normal" C major scale: 0 = C major, 1 = d minor, 2 = e minor, 3 = F major, 4 = G major, 5 = a minor, 6 = b diminished
     byte note[4][7]; // Arrays holding the current notes
@@ -123,53 +124,34 @@ class Arpeggiator
 };
 
 // -------------------------------- I N T E R V A L
-const byte interval[38][7] =
+
+				// sum of all 7 intervals = 12 (octave)
+				// sum of first 4 intervals = 7 (pure fifth)
+				// sum of first 2 intervals = 4 (major third)
+				// No adjacent "1"s allowed except position 4 and 5
+				// Normal (major) / Mirrored (minor)
+const byte interval[20][7] =				
 {
-  {2, 2, 1, 2, 2, 2, 1}, //  0  a1
-
-  {1, 2, 1, 4, 1, 2, 1}, //  1 d8 quite surprising!
-  {1, 1, 2, 2, 1, 2, 3}, //  2 b3
-  {2, 2, 1, 2, 1, 2, 2}, //  3 a2
-  {1, 2, 1, 2, 2, 1, 3}, //  4 b7
-  {1, 2, 1, 2, 1, 2, 3}, //  5 b6 Trygg Hansa
-  {1, 3, 1, 2, 1, 3, 1}, //  6 c8 Bir iki / Flamenco
-
-  {1, 1, 2, 2, 2, 1, 3}, //  7 b4
-  {2, 1, 1, 1, 2, 2, 3}, //  8 b8
-  {1, 1, 2, 1, 2, 2, 3}, //  9 b2
-  {2, 1, 1, 2, 1, 2, 3}, // 10 b9
-  {1, 1, 2, 1, 2, 1, 4}, // 11 d5
-  {1, 1, 3, 1, 3, 1, 2}, // 12 c5
-
-  {1, 2, 1, 1, 2, 2, 3}, // 13 b5
-  {1, 3, 1, 1, 1, 3, 2}, // 14 c6
-  {1, 1, 1, 2, 2, 1, 4}, // 15 d3
-  {1, 2, 1, 1, 1, 2, 4}, // 16 d6
-  {1, 1, 1, 2, 2, 2, 3}, // 17 b1
-  {1, 1, 3, 1, 1, 3, 2}, // 18 c4
-
-  {3, 1, 1, 2, 1, 1, 3}, // 19 c9
-  {1, 1, 1, 3, 1, 3, 2}, // 20 c2
-  {1, 1, 3, 2, 3, 1, 1}, // 21 c7
-  {1, 1, 2, 1, 1, 2, 4}, // 22 d4
-  {2, 1, 1, 4, 1, 1, 2}, // 23 d9
-  {1, 1, 1, 1, 3, 1, 4}, // 24 e2
-
-  {2, 1, 1, 2, 2, 1, 3}, // 25 b10
-  {1, 2, 2, 2, 2, 2, 1}, // 26 a3
-  {1, 1, 1, 2, 1, 2, 4}, // 27 d2
-  {1, 1, 1, 3, 1, 1, 4}, // 28 e3
-  {1, 1, 1, 1, 3, 3, 2}, // 29 c1
-  {1, 1, 1, 3, 3, 1, 2}, // 30 c3
-
-  {1, 1, 1, 1, 2, 2, 4}, // 31 d1
-  {1, 1, 1, 1, 1, 3, 4}, // 32 e1
-  {1, 1, 1, 2, 1, 1, 5}, // 33 f3
-  {1, 1, 2, 4, 2, 1, 1}, // 34 d7
-  {1, 1, 1, 1, 2, 1, 5}, // 35 f2
-  {1, 1, 1, 1, 1, 2, 5}, // 36 f1
-
-  {1, 1, 1, 6, 1, 1, 1}  // 37 g1
+  {1, 3, 1, 2, 1, 2, 2},	// Phrygian dominant / -
+  {1, 3, 1, 2, 1, 3, 1},	// Flamenco mode, Double harmonic, Bir iki / Hungarian gypsy, Hungarian minor, Algerian
+  {1, 3, 1, 2, 2, 1, 2},	// - / Ukranian Dorian
+  {1, 3, 1, 2, 2, 2, 1},	//
+  {1, 3, 2, 1, 1, 2, 2},	//
+  {1, 3, 2, 1, 1, 3, 1},	// Purvi / -
+  {1, 3, 2, 1, 2, 1, 2},	//
+  {1, 3, 2, 1, 2, 2, 1},	// - / Todi
+  {2, 2, 1, 2, 1, 2, 2},	// Adonai Malakh / Melodic minor
+  {2, 2, 1, 2, 1, 3, 1},	// Harmonic major / Harmonic minor
+  {2, 2, 1, 2, 2, 1, 2},	// Mixolydian, Khamaj / Dorian, Kafi
+  {2, 2, 1, 2, 2, 2, 1},	// MAJOR, Ionian, Bilawal / Natural MINOR, Aeolian, Asavari
+  {2, 2, 2, 1, 1, 2, 2},	// - / Neapolitan major
+  {2, 2, 2, 1, 1, 3, 1},	// - / Neapolitan minor
+  {2, 2, 2, 1, 2, 1, 2},	//
+  {2, 2, 2, 1, 2, 2, 1},	// Lydian, Kalyan / Phrygian, Bharavi
+  {3, 1, 2, 1, 1, 2, 2},	//
+  {3, 1, 2, 1, 1, 3, 1},	//
+  {3, 1, 2, 1, 2, 1, 2},	//
+  {3, 1, 2, 1, 2, 2, 1}		//
 };
 
 // -------------------------------- N O T E   P A T T E R N
