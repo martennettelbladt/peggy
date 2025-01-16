@@ -3,7 +3,7 @@
 2212- / 2111-
 2221- / 1222-
 3121- / 1213-
--122    # last 3 intervals = 4 combinations
+-122            # last 3 intervals = 4 combinations
 -131
 -212
 -221
