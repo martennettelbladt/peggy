@@ -28,6 +28,8 @@
   [ ] test med bela! Dvs Peggy gör även ljud!
   [ ] inbyggda högtalare och batteri. Portabelt instrument
   [ ] pure data hammond-orgel? -> bela
+  [ ] nibble som styr rytmer, trummaskin? 4 st nibble = 16-delar
+  [ ] nibble x 4 (2 byte) som styr melodi dvs 2 x 7 toner + 1 = 2 oktaver. 0 = tyst
 
       L Å N G S I K T I G T
   [ ] fade()
