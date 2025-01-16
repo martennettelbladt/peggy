@@ -24,7 +24,7 @@
 2122-221  //* M E L O D I C   M I N O R
 2131-122  //*
 2131-131  //* Hungarian gypsy, Hungarian minor, Algerian
-2131-212  //*
+2131-212  //* Ukranian Dorian
 2131-221  //* 
 2212-122  //* Adonai Malakh
 2212-131  //* H A R M O N I C   M A J O R
