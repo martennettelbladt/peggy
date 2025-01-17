@@ -10,4 +10,4 @@ for a in range(1, 7):
                     for f in range(1, 7):
                         for g in range(1, 7):
                             if a + b + c + d + e + f + g == 12:
-                                print("{", a, ", ", b, ", ", c, ", ", d, ", ", e, ", ", f, ", ", g, "}", ",", sep='')
+                                print(a, b, c, d, "-", e, f, g, sep='')
