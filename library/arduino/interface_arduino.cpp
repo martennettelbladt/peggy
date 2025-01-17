@@ -13,8 +13,8 @@
 #define serialSyncOut Serial
 #define serialNoteOut Serial 
 //#define serialMonitor Serial
-// Arduino Micro must use "Serial1" (pin 1) Confusing!
-// Arduino Mega can use "Serial" (pin 1), "Serial1" (pin 18), "Serial2" (pin 16) or "Serial3" (pin 14)
+// Arduino Micro must use "Serial1" (pin 0, 1) Confusing!
+// Arduino Mega can use "Serial" (pin 0, 1), "Serial1" (pin 19, 18), "Serial2" (pin 17, 16) or "Serial3" (pin 15, 14)
 
 #include "interface.h"
 
