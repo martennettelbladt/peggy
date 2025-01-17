@@ -13,5 +13,5 @@ for a in range(3):
                                     # Select only major scales
                                     if a + b + 2 == 4:
                                         # print major / minor scale
-                                        print(a+1, b+1, c+1, d+1, "-", e+1, f+1, g+1, " / ", d+1, c+1, b+1, a+1, "-", g+1, f+1, e+1, sep='')
+                                        print(a+1, b+1, c+1, d+1, "-", e+1, f+1, g+1, " (", d+1, c+1, b+1, a+1, "-", g+1, f+1, e+1, ")", sep='')
 
