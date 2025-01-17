@@ -1,4 +1,4 @@
-# 20 scales / Mårten Nettelbladt / 2025-01-16
+# 20x2 scales / Mårten Nettelbladt / 2025-01-17
 
 for a in range(3):
     for b in range(3):
