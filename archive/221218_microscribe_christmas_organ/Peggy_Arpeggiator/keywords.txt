@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For Peggy
+#######################################
+# Class
+#######################################
+
+Arpeggiator	KEYWORD1
+
+#######################################
+# Methods and Functions
+#######################################
+
+tempo	KEYWORD2
+chord	KEYWORD2
+key	KEYWORD2
+playMode	KEYWORD2
+mute	KEYWORD2
+mirror	KEYWORD2
+pitch	KEYWORD2
+oldPitch	KEYWORD2
+scale	KEYWORD2
+mode	KEYWORD2
+note	KEYWORD2
+noteType	KEYWORD2
+oldNote	KEYWORD2
+play	KEYWORD2
