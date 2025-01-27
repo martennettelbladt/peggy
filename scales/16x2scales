@@ -1,0 +1,22 @@
+1312-122 (2131-221)  Phrygian dominant (-)
+1312-131 (2131-131)  Flamenco mode, Double harmonic, Bir iki (Hungarian gypsy, Hungarian minor, Algerian)
+1312-212 (2131-212)  - (Ukranian Dorian)
+1312-221 (2131-122)
+1321-122 (1231-221)
+1321-131 (1231-131)  Purvi (-)
+1321-212 (1231-212)
+1321-221 (1231-122)  - (Todi)
+2212-122 (2122-221)  Adonai Malakh (Melodic minor)
+2212-131 (2122-131)  Harmonic major (Harmonic minor)
+2212-212 (2122-212)  Mixolydian, Khamaj (Dorian, Kafi)
+2212-221 (2122-122)  Natural major, Ionian, Bilawal (Natural minor, Aeolian, Asavari)
+2221-122 (1222-221)  - (Neapolitan major)
+2221-131 (1222-131)  - (Neapolitan minor)
+2221-212 (1222-212)
+2221-221 (1222-122)  Lydian, Kalyan (Phrygian, Bharavi)
+
+# Max interval 3 / No adjacent "1" within each group of intervals. / 5th note = 7 semi tones from root
+# Must not have both minor and major third (from root note) = can't start with 31
+# Arranged in MAJOR and (MINOR) pairs. To shift between them, the first four intervals are reversed and then the last three
+# Example: ABCD-EFG becomes DCBA-GFE
+# Mårten Nettelbladt 2025-01-27
