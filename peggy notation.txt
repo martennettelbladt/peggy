@@ -1,0 +1,8 @@
+(Peggy notation: ↙Dm  ←F  ↖Am  ↑C  ↗Em  →G  *minor/major switch) / 2025-02-05
+
+Dm   D   F   A 
+F        F   A   C
+Am           A   C   E
+C                C   E   G
+Em                   E   G   B
+G                        G   B   D
