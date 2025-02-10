@@ -12,7 +12,7 @@ Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = c
 
 const float rad2peg;
 
-setup() 
+void setup() 
 {
   rad2peg = 4 / M_PI; 
 }
