@@ -16,3 +16,19 @@ void setup()
 {
   rad2peg = 4 / M_PI; 
 }
+
+LEFT:
+Left 4: 0
+Right 4: 1023
+Up 5: 0
+Down 5: 1023
+CCW 6: 0
+CW 6: 1023
+
+RIGHT:
+Left 2: 0
+Right 2: 1023
+Up 1: 0
+Down 1: 1023
+CCW 3: 0
+CW 3 : 1023
