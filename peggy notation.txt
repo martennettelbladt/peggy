@@ -1,11 +1,11 @@
 (Peggy notation: 🡯Dm  🡨F  🡬Am  🡩C  🡭Em  🡪G  🡮Bdim   *minor/major switch) / 2025-02-05
 
-0: 🡯  Dm   D   F   A 
-1: 🡨  F        F   A   C
-2: 🡬  Am           A   C   E
-3: 🡩  C                C   E   G
-4: 🡭  Em                   E   G   B
-5: 🡪  G                        G   B   D
-6: 🡮  Bdim                         B   D   F
+0: 🡯   ii  Dm   D   F   A 
+1: 🡨   IV  F        F   A   C
+2: 🡬   vi  Am           A   C   E
+3: 🡩   I   C                C   E   G
+4: 🡭   iii Em                   E   G   B
+5: 🡪   V   G                        G   B   D
+6: 🡮   vii Bdim                         B   D   F
 
 Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = constrain(floor(Radians * 4 / pi + 3.5), 0, 6)
