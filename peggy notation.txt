@@ -10,7 +10,9 @@
 
 Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = constrain(floor(Radians * 4 / pi + 3.5), 0, 6)
 
+const float rad2peg
+
 setup() 
 {
-  const float rad2peg = 4 / M_PI; 
+  rad2peg = 4 / M_PI; 
 }
