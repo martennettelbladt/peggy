@@ -18,4 +18,4 @@ Peggy notation: 🡯Dm  🡨F  🡬Am  🡩C  🡭Em  🡪G  🡮Bdim   *minor/m
 5: 🡪   V   G                        G   B   D
 6: 🡮   vii Bdim                         B   D   F
 
-🡨	🡩	🡪	🡫	🡬	🡭	🡮	🡯 Unicode U+1F868 - U+1F86F
+🡨	🡩	🡪	🡫	🡬	🡭	🡮	🡯 Unicode arrows U+1F868 - U+1F86F
