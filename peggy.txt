@@ -1,5 +1,15 @@
-(Peggy notation: 🡯Dm  🡨F  🡬Am  🡩C  🡭Em  🡪G  🡮Bdim   *minor/major switch) / 2025-02-05
+(2025-02-12)
+Rate of change. Right joystick X-value, analogRead(A2) (0-1023) change per millisecond? Where in code?
 
+(2025-02-10)
+Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = constrain(floor(Radians * 4 / pi + 3.5), 0, 6)
+
+(2025-02-10 / joystick readings)
+LEFT JOYSTICK: Left 4: 0 / Right 4: 1023 / Up 5: 0 / Down 5: 1023 / CCW 6: 0 / CW 6: 1023
+RIGHT JOYSTICK: Left 2: 0 / Right 2: 1023 / Up 1: 0 / Down 1: 1023 / CCW 3: 0 / CW 3 : 1023
+
+(2025-02-05)
+Peggy notation: 🡯Dm  🡨F  🡬Am  🡩C  🡭Em  🡪G  🡮Bdim   *minor/major switch
 0: 🡯   ii  Dm   D   F   A 
 1: 🡨   IV  F        F   A   C
 2: 🡬   vi  Am           A   C   E
@@ -8,27 +18,4 @@
 5: 🡪   V   G                        G   B   D
 6: 🡮   vii Bdim                         B   D   F
 
-Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = constrain(floor(Radians * 4 / pi + 3.5), 0, 6)
-
-const float rad2peg;
-
-void setup() 
-{
-  rad2peg = 4 / M_PI; 
-}
-
-LEFT:
-Left 4: 0
-Right 4: 1023
-Up 5: 0
-Down 5: 1023
-CCW 6: 0
-CW 6: 1023
-
-RIGHT:
-Left 2: 0
-Right 2: 1023
-Up 1: 0
-Down 1: 1023
-CCW 3: 0
-CW 3 : 1023
+🡨	🡩	🡪	🡫	🡬	🡭	🡮	🡯 Unicode U+1F868 - U+1F86F
