@@ -15,7 +15,9 @@
 2221-212 (1222-212)
 2221-221 (1222-122)  Lydian, Kalyan (Phrygian, Bharavi)
 
-# Max interval 3 / No adjacent "1" within each group of intervals. / 5th note = 7 semi tones from root
+# Max interval 3
+# No adjacent "1s" within each group of intervals
+# 5th note = 7 semi tones from root = Perfect fifth
 # Must not have both minor and major third (from root note) = can't start with 31
 # Arranged in MAJOR and (MINOR) pairs. To shift between them, the first four intervals are reversed and then the last three
 # Example: ABCD-EFG becomes DCBA-GFE
