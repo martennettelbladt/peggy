@@ -1,5 +1,8 @@
 (2025-02-12)
 Rate of change. Right joystick X-value, analogRead(A2) (0-1023) change per millisecond? Where in code?
+float: peggy.speed, calculated per 10 milliseconds?
+boolean: trackSpeed
+interfaceSpeedPosition();
 
 (2025-02-10)
 Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = constrain(floor(Radians * 4 / pi + 3.5), 0, 6)
