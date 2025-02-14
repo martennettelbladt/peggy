@@ -1,15 +1,22 @@
-(2025-02-12)
-Rate of change. Right joystick X-value, analogRead(A2) (0-1023) change per millisecond? Where in code?
-float: peggy.speed, calculated per 10 milliseconds?
-boolean: trackSpeed
-interfaceSpeedPosition();
+(2025-02-14)
+bool externalTriggerMode
+  false: notes triggered by tempo/beat et cetera
+  true: notes triggered when bool trig == true (and sets trig to false)
+    bool trig
+
+if (speed < -25 && speed > lastSpeed)
+{
+  trig = true;
+  velocity = map(speed, -25, -150, 0, 127);
+}
+// speed = change in right joystick x-axis (analogRead) per 5 milliseconds
 
 (2025-02-10)
 Convert from Radians [-pi, pi] to Peggy chord angle [-0.5, 7.5]: Peggy angle = constrain(floor(Radians * 4 / pi + 3.5), 0, 6)
 
-(2025-02-10 / joystick readings)
-LEFT JOYSTICK: Left 4: 0 / Right 4: 1023 / Up 5: 0 / Down 5: 1023 / CCW 6: 0 / CW 6: 1023
-RIGHT JOYSTICK: Left 2: 0 / Right 2: 1023 / Up 1: 0 / Down 1: 1023 / CCW 3: 0 / CW 3 : 1023
+(2025-02-10 / joystick analog readings)
+LEFT JOYSTICK: Left A3:0 / Right A3:1023 / Up A4:0 / Down A4:1023 / CCW 5:0 / CW A5:1023
+RIGHT JOYSTICK: Left A1:0 / Right A1:1023 / Up A0:0 / Down A0:1023 / CCW A2:0 / CW A2:1023
 
 (2025-02-05)
 Peggy notation: 🡯Dm  🡨F  🡬Am  🡩C  🡭Em  🡪G  🡮Bdim   *minor/major switch
