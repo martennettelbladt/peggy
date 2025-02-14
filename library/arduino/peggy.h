@@ -130,7 +130,7 @@ class Arpeggiator
 				// sum of first 2 intervals = 4 (major third)
 				// No adjacent "1"s allowed except position 4 and 5
 				// Normal (major) / Mirrored (minor)
-const byte interval[20][7] =				
+const byte interval[16][7] =				
 {
   {1, 3, 1, 2, 1, 2, 2},	// Phrygian dominant / -
   {1, 3, 1, 2, 1, 3, 1},	// Flamenco mode, Double harmonic, Bir iki / Hungarian gypsy, Hungarian minor, Algerian
@@ -147,11 +147,7 @@ const byte interval[20][7] =
   {2, 2, 2, 1, 1, 2, 2},	// - / Neapolitan major
   {2, 2, 2, 1, 1, 3, 1},	// - / Neapolitan minor
   {2, 2, 2, 1, 2, 1, 2},	//
-  {2, 2, 2, 1, 2, 2, 1},	// Lydian, Kalyan / Phrygian, Bharavi
-  {3, 1, 2, 1, 1, 2, 2},	//
-  {3, 1, 2, 1, 1, 3, 1},	//
-  {3, 1, 2, 1, 2, 1, 2},	//
-  {3, 1, 2, 1, 2, 2, 1}		//
+  {2, 2, 2, 1, 2, 2, 1}		// Lydian, Kalyan / Phrygian, Bharavi
 };
 
 // -------------------------------- N O T E   P A T T E R N
