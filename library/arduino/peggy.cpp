@@ -244,11 +244,13 @@ void Arpeggiator::continuous()
     }
   }
 
+  //copy current notes to old notes
   for (i = 0; i < 3; i++)
   {
     oldNote[i] = note[noteType][i * 2];
   }
 
+  // if peggy was muted, turn notes off
   if (mute == true && oldMute == false)
   {
     for (i = 0; i < 3; i++)
@@ -257,6 +259,8 @@ void Arpeggiator::continuous()
       oldMute = true;
     }
   }
+
+  // if peggy was unmuted, turn notes on
   if (mute == false && oldMute == true)
   {
     for (i = 0; i < 3; i++)
