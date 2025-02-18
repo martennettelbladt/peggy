@@ -205,7 +205,7 @@ void Arpeggiator::trackPlayingNotes()
     {
       noteRecord[i] --;
     }
-    if (noteRecord[i] == 1 && sustain == false)
+    if (noteRecord[i] == 1 && sustain == false) // else if ???<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     {
       noteOff(i);
       noteRecord[i] = 0;
