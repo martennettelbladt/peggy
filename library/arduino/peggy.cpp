@@ -39,22 +39,22 @@ void Arpeggiator::play()
 {
   if (internalSyncCheck() == true)
   {
-    if (playMode != oldPlayMode)
+    if (playMode != oldPlayMode) // if playmode was changed
     {
-      if (oldPlayMode == 0)
+      if (oldPlayMode == 0) // if old mode was 'continuous'
       {
         for (i = 0; i < 3; i++)
         {
-          noteOff(oldNote[i]);
+          noteOff(oldNote[i]); // turn off all 3 notes
         }
       }
-      if (playMode == 0)
+      if (playMode == 0) // if new mode is 'continuous'
       {
         for (i = 0; i < 3; i++)
         {
-          if (noteRecord[oldNote[i]] == 0)
+          if (noteRecord[oldNote[i]] == 0) // 'oldNote' only used in continuous mode, next FIXING <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
           {
-            oldNote[i] = 0;
+            oldNote[i] = 0; // set oldNote to '0' for notes that were off, to indicate it is not continuing to play'
           }
         }
       }
